@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER = "http://localhost:8080";
+const SERVER = "http://scnbox.com:8080";
 
 const XMM0Create = () => {
 	return axios.post(`${SERVER}/create`, {
