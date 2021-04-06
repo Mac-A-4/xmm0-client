@@ -1,0 +1,116 @@
+.XMM0Home-Root {
+	overflow-y: auto;
+	background-color: var(--color-2);
+	font-family: 'Helvetica';
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.XMM0Home-Title {
+	width: 80%;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--color-5);
+	font-size: 64px;
+	font-weight: light;
+	color: black;
+	text-shadow: 2px 2px var(--color-4);
+}
+
+.XMM0HomeInput-Root {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 240px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.XMM0HomeInput-Label {
+	font-size: 14px;
+	flex-grow: 1;
+	text-align: left;
+}
+
+.XMM0HomeInput-Input {
+	flex-grow: 2;
+	height: 100%;
+}
+
+.XMM0HomeButton {
+	width: 240px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.XMM0Home-Subtitle {
+	width: 80%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: light;
+	color: black;
+	text-shadow: 1px 1px var(--color-4);
+}
+
+.XMM0Home-Create {
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--color-5);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.XMM0Home-Join {
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--color-5);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.XMM0HomeRoom-Root {
+	background-color: inherit;
+	width: 240px;
+	height: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid var(--color-5);
+	border-bottom: 1px solid var(--color-5);
+	display: flex;
+	align-items: center;
+}
+
+.XMM0HomeRoom-Root:hover {
+	filter: brightness(90%);
+	cursor: pointer;
+}
+
+.XMM0HomeRoom-Body {
+	width: 100%;
+	font-size: 14px;
+	flex-grow: 1;
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 10px;
+	user-select: none;
+}
+
+.XMM0Home-List {
+	background-color: inherit;
+	width: 240px;
+	overflow-y: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}

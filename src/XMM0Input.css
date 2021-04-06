@@ -1,0 +1,20 @@
+.XMM0Input-Input {
+	background-color: var(--color-1);
+	color: black;
+	border-radius: 10px;
+	border: none;
+}
+
+.XMM0Input-Input:focus {
+	outline: none;
+	filter: brightness(90%);
+}
+
+.XMM0Input-Input:disabled {
+	filter: grayscale(60%);
+}
+
+.XMM0Input-Input:hover:enabled {
+	filter: brightness(90%);
+	cursor: text;
+}

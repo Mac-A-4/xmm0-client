@@ -1,0 +1,15 @@
+.XMM0Button-Button {
+	background-color: var(--color-4);
+	color: var(--color-1);
+	border-radius: 10px;
+	border: none;
+}
+
+.XMM0Button-Button:disabled {
+	filter: grayscale(60%);
+}
+
+.XMM0Button-Button:hover:enabled {
+	filter: brightness(90%);
+	cursor: pointer;
+}

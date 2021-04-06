@@ -1,0 +1,111 @@
+.XMM0Room-Root {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.XMM0Room-Home {
+	width: 400px;
+	height: 100%;
+}
+
+.XMM0Room-Main {
+	flex: 1;
+	height: 100%;
+	background-color: var(--color-2);
+	display: flex;
+	flex-direction: row;
+}
+
+.XMM0Room-Right {
+	width: 400px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.XMM0Room-Info {
+	
+}
+
+.XMM0Room-Left {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.XMM0Room-Bottom {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.XMM0Room-Top {
+	overflow-y: scroll;
+	background: repeating-linear-gradient(
+	  45deg,
+	  var(--color-1),
+	  var(--color-1) 10px,
+	  var(--color-2) 10px,
+	  var(--color-2) 20px
+	);
+	width: 100%;
+	flex: 1;
+}
+
+.XMM0RoomMessage-Root {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.XMM0RoomMessage-Box {
+	width: auto;
+	height: auto;
+	max-width: 400px;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+	font-family: 'Helvetica';
+}
+
+.XMM0RoomMessage-Title {
+	font-size: 14px;
+	font-weight: light;
+	margin-bottom: 10px;
+}
+
+.XMM0RoomMessage-Body {
+	font-size: 12px;
+	font-weight: light;
+	overflow-wrap: anywhere;
+}
+
+.XMM0RoomMessage-Local {
+	background-color: var(--color-4);
+	float: right;
+	color: white;
+}
+
+.XMM0RoomMessage-Remote {
+	background-color: var(--color-2);
+	float: left;
+	color: black;
+}
+
+.XMM0Room-Chat {
+	flex: 1;
+	height: 35px;
+	margin-right: 5px;
+}
+
+.XMM0Room-Send {
+	width: 120px;
+	height: 35px;
+	margin-left: 5px;
+}
