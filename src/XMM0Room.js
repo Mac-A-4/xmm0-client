@@ -129,7 +129,7 @@ class XMM0Room extends React.Component {
 					<div className="XMM0Room-Left">
 						<XMM0RoomTop inRoom={this.state.inRoom} history={this.histories[this.state.xid]}/>
 						<div className="XMM0Room-Bottom">
-							<XMM0Input value={this.state.chatInput} className="XMM0Room-Chat" onChange={(x)=>{this.setState({ chatInput: x });}} disabled={!this.state.inRoom}/>
+							<XMM0Input value={this.state.chatInput} className="XMM0Room-Chat" onChange={(x)=>{this.setState({ chatInput: x });}} onEnter={()=>{this.onSend();}} disabled={!this.state.inRoom}/>
 							<XMM0Button className="XMM0Room-Send" label="Send" onClick={()=>{this.onSend();}} disabled={!this.state.inRoom}/>
 						</div>
 					</div>
