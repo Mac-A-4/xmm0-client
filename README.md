@@ -13,3 +13,6 @@ Built to interface with xmm0-server, to form a full stack application.
 ## Running
 To deploy and run this app, clone the repository, modify the hostname inside of ```XMM0Api.js``` to the hostname of the server on which you are hosting the backend, xmm0-server.
 Then, simply ```npm start``` and try it out!
+
+## GUI
+![Image of GUI](https://image.prntscr.com/image/tKcVtqkcStmpQ1b2APhGdA.png)
